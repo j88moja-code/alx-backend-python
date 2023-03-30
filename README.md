@@ -1,3 +1,3 @@
 # alx-backend-python
 
-* [0x00-python_variable_annotations]() - Python Backend Project
+## [0x00-python_variable_annotations]() - Python Backend Project
