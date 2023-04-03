@@ -24,7 +24,7 @@ def element_length(lst):
 
 `advanced_tasks`
 
-* [100-safe_first_element.py]() - Augment the following code with the correct duck-typed annotations:
+* [100-safe_first_element.py](https://github.com/j88moja-code/alx-backend-python/blob/main/0x00-python_variable_annotations/100-safe_first_element.py) - Augment the following code with the correct duck-typed annotations:
 ```
 # The types of the elements of the input are not know
 def safe_first_element(lst):
@@ -33,7 +33,7 @@ def safe_first_element(lst):
     else:
         return None
 ```
-* [101-safely_get_value.py]() - Given the parameters and the return values, add type annotations to the function
+* [101-safely_get_value.py](https://github.com/j88moja-code/alx-backend-python/blob/main/0x00-python_variable_annotations/101-safely_get_value.py) - Given the parameters and the return values, add type annotations to the function
 ```
 def safely_get_value(dct, key, default = None):
     if key in dct:
@@ -41,7 +41,7 @@ def safely_get_value(dct, key, default = None):
     else:
         return default
 ```
-* [102-type_checking.py]() - Use mypy to validate the following piece of code and apply any necessary changes.
+* [102-type_checking.py](https://github.com/j88moja-code/alx-backend-python/blob/main/0x00-python_variable_annotations/102-type_checking.py) - Use mypy to validate the following piece of code and apply any necessary changes.
 ```
 def zoom_array(lst: Tuple, factor: int = 2) -> Tuple:
     zoomed_in: Tuple = [
