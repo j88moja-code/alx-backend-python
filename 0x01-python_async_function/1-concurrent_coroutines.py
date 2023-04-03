@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""
-    Importing wait_random from the previous python file and
-    writing an async routine called wait_n that takes in 2 int arguments:
-    max_delay and n. The function will spawn wait_random n times with the specified
-    max_delay. wait_n should return the list of all the delays (float values).
-    The list of the delays should be in ascending order without using sort()
-    because of concurrency.
-"""
+"""Importing wait_random from the previous python file and
+writing an async routine called wait_n that takes in 2 int
+arguments: max_delay and n. The function will spawn
+wait_random n times with the specified max_delay.
+wait_n should return the list of all the delays
+(float values). The list of the delays should be in
+ascending order without using sort() because of
+concurrency."""
 import asyncio
 from typing import List
 wait_random = __import__('0-basic_async_syntax').wait_random
